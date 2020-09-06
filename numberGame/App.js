@@ -53,7 +53,7 @@ class App extends Component {
         </View>
         <View style={styles.btn}>
           <Button
-            title="Quess me!"
+            title="Guess me!"
             onPress={(nappiaPainettu) => this.buttonPressed(true)}
           />
         </View>
