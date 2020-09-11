@@ -6,4 +6,4 @@ Mobiiliohjelmointi (Syksy 2020), harjoitustehtävät
 -Tehtävä 2: [Calculator](CalculatorTehtava/App.js)
 -Tehtävä 3: [NumberGame](numberGame/App.js)
 -Tehtävä 4: [CalculatorWithHistory](CalculatorHistory/App.js)
--Tehtävä 5: [ShoppingList]()
+-Tehtävä 5: [ShoppingList](shoppingList/App.js)
