@@ -1,0 +1,67 @@
+{
+  "title": "Recipe Puppy",
+  "version": 0.1,
+  "href": "http://www.recipepuppy.com/",
+  "results": [
+    {
+      "title": "Chicken Sandwich (Working Title)",
+      "href": "http://www.recipezaar.com/Chicken-Sandwich-Working-Title-130966",
+      "ingredients": "chicken, buns, chili pepper, oregano, red pepper, habanero pepper, lime juice, rum, basil, onions",
+      "thumbnail": ""
+    },
+    {
+      "title": "Title Grilled Squid Salad with Black Beans and Mango",
+      "href": "http://www.bigoven.com/27291-Title-Grilled-Squid-Salad-with-Black-Beans-and-Mango-recipe.html",
+      "ingredients": "squid, squid, mango, black beans, arugula, rice vinegar, olive oil, chipotle puree, honey, chiffonade, cilantro, salt",
+      "thumbnail": ""
+    },
+    {
+      "title": "Title Grilled Squid with Sweet and Sour Cucumber, Corn And",
+      "href": "http://www.bigoven.com/27292-Title-Grilled-Squid-with-Sweet-and-Sour-Cucumber,-Corn-And-recipe.html",
+      "ingredients": "squid, squid, salt, cucumber, cucumber, red pepper, vidalia onions, salt, corn, sugar, cider vinegar, mustard seed, cloves, chili powder",
+      "thumbnail": ""
+    },
+    {
+      "title": "Chile Seared Cervena Venison with (See Full Title Below)",
+      "href": "http://www.bigoven.com/64942-Chile-Seared-Cervena-Venison-with-(See-Full-Title-Below)-recipe.html",
+      "ingredients": "cilantro, kosher salt, sugar, garlic, chilies, vegetable oil, venison, yellow onions, avocados, asparagus, cilantro, lime juice, salt, potato, poblano chiles, cream cheese, heavy cream, black pepper, roma tomato, roma tomato, vegetable oil, yellow onions, garlic, chili powder, tomato juice, champagne vinegar, sugar, cilantro, habanero",
+      "thumbnail": ""
+    },
+    {
+      "title": "Title Fire Shucked Oyster Shooters with Jacks Vermouth Mar",
+      "href": "http://www.bigoven.com/27290-Title-Fire-Shucked-Oyster-Shooters-with-Jacks-Vermouth-Mar-recipe.html",
+      "ingredients": "oysters, vermouth, citron, vermouth, onions, thyme, kosher salt, dill weed",
+      "thumbnail": ""
+    },
+    {
+      "title": "10-Minute Baked Ziti",
+      "href": "http://www.recipezaar.com/10-Minute-Baked-Ziti-185088",
+      "ingredients": "garlic powder, italian seasoning, mozzarella cheese, parmesan cheese, tomato sauce, ricotta cheese, water, ziti pasta",
+      "thumbnail": ""
+    },
+    {
+      "title": "The Super Bowl ... of Popcorn",
+      "href": "http://www.recipezaar.com/The-Super-Bowl-of-Popcorn-180301",
+      "ingredients": "butter, onion soup mix, popped popcorn, soy sauce, hot sauce",
+      "thumbnail": "http://img.recipepuppy.com/108683.jpg"
+    },
+    {
+      "title": "Black and Tan Onion Rings",
+      "href": "http://www.recipezaar.com/Black-and-Tan-Onion-Rings-4199",
+      "ingredients": "flour, cayenne, chicken broth, peppers, paprika, salt, onions, vegetable oil",
+      "thumbnail": ""
+    },
+    {
+      "title": "Canadian Slipper",
+      "href": "http://www.recipezaar.com/Canadian-Slipper-173259",
+      "ingredients": "amaretto liqueur, liqueur, coffee flavored liqueur, milk, vanilla extract, whipped cream",
+      "thumbnail": "http://img.recipepuppy.com/278444.jpg"
+    },
+    {
+      "title": "Normal Chicken",
+      "href": "http://allrecipes.com/Recipe/Normal-Chicken/Detail.aspx",
+      "ingredients": "soy sauce, worcestershire sauce",
+      "thumbnail": "http://img.recipepuppy.com/2611.jpg"
+    }
+  ]
+}
