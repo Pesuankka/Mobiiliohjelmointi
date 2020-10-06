@@ -10,3 +10,6 @@ Mobiiliohjelmointi (Syksy 2020), harjoitustehtävät
 -Tehtävä 6,1: [NavigationCalc](/navCalcHist/App.js)
 -Tehtävä 6,2: [NavigationCalc](/navCalcHist/Calculator.js)
 -Tehtävä 6,3: [NavigationCalc](/navCalcHist/History.js)
+-Tehtävä 7: [recipeFinder](/recipeFinder/App.js)
+
+
