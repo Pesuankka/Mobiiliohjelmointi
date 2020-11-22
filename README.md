@@ -14,6 +14,7 @@ Mobiiliohjelmointi (Syksy 2020), harjoitustehtävät
 -Tehtävä 7.1: [euroConverter](/euroConverter/App.js)
 -tehtävä 8: [adressFinder](adressFinder/App.js)
 -tehtävä 8.1 [restaurantFinder](restaurantFinder/App.js)
+-tehtävä 8.2 [locationFinder](/locationFinder/App.js)
 
 
 
