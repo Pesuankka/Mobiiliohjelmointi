@@ -16,6 +16,7 @@ Mobiiliohjelmointi (Syksy 2020), harjoitustehtävät
 -tehtävä 8.1 [restaurantFinder](restaurantFinder/App.js)
 -tehtävä 8.2 [locationFinder](/locationFinder/App.js)
 -tehtävä 9 [ShoppingListWithDataBase](/shoppinglistwithdatabasenew/App.js)
+-tehtävä 9.1 [ShoppingListWithFireBase](/firebasedata/App.js)
 
 
 
