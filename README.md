@@ -18,6 +18,7 @@ Mobiiliohjelmointi (Syksy 2020), harjoitustehtävät
 -tehtävä 9 [ShoppingListWithDataBase](/shoppinglistwithdatabasenew/App.js)
 -tehtävä 9.1 [ShoppingListWithFireBase](/firebasedata/App.js)
 -Tehtävä 10 [Contacts](/contacts/App.js)
+-Tehtävä 10.1 [TextToSpeech](/textToSpeech/App.js)
 
 
 
