@@ -36,5 +36,6 @@ Mobiiliohjelmointi (Syksy 2020), harjoitustehtävät
 
 -Tehtävä 10.1 [TextToSpeech](/textToSpeech/App.js)
 
+-Tehtävä 11 [ShoppingListWithNativeElements](/shoppinglistwithnativeelements/App.js)
 
 
