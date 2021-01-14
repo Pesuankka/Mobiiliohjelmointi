@@ -40,6 +40,6 @@ Mobiiliohjelmointi (Syksy 2020), harjoitustehtävät
 
 -Tehtävä 11.1 [MyPlacesApp](/myPlacesApp/App.js)
 
-  -Tehtävä 11.1 [MyPlacesApp](/myPlacesApp/Components/Adress.js)
+  ---->Tehtävä 11.1 [MyPlacesApp - Adress](/myPlacesApp/Components/Adress.js)
   
-  -Tehtävä 11.1 [MyPlacesApp](/myPlacesApp/Components/Map.js)
+  ---->Tehtävä 11.1 [MyPlacesApp - Map](/myPlacesApp/Components/Map.js)
