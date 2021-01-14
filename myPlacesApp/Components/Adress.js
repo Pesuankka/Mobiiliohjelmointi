@@ -1,107 +1,86 @@
-import { StatusBar } from "expo-status-bar";
-import React, { useState, useEffect } from "react";
-import { StyleSheet, Text, TextInput, View, FlatList } from "react-native";
-import * as SQlite from "expo-sqlite";
-import { Icon } from "react-native-elements";
-import { Input, Button } from "react-native-elements";
-import { ListItem } from "react-native-elements";
-import { SQLError } from "expo-sqlite";
 
-const db = SQlite.openDatabase("myplaces.db");
+import React, { useState, useEffect} from 'react';
+import { StyleSheet, Text, View, FlatList } from 'react-native';
+import * as SQLite from 'expo-sqlite';
+import { Input, Button, Header, Icon, ListItem } from'react-native-elements';
 
-function AdressSaver({ route, navigation }) {
-  const [places, setPlaces] = useState("");
-  const [myareas, setMyAreas] = useState([]);
+const db = SQLite.openDatabase('myplaces.db');
+
+function AdressSaver({route, navigation }) {
+  const [places, setPlaces] = useState('');
+  const [myArea, setMyAreas] = useState([]);
 
   useEffect(() => {
-    db.transaction((tx) => {
-      tx.executeSql(
-        "create table if not exists places (id integer primary key not null, places int, places text);"
-      );
+    db.transaction(tx => {
+      tx.executeSql('create table if not exists list (id integer primary key not null, places text);');
     });
     updateList();
   }, []);
-
-  // Save
+  
+  //Save item
   const saveItem = () => {
-    db.transaction(
-      (tx) => {
-        tx.executeSql("insert into places ( places) values (?);", [places]);
-      },
-      null,
-      updateList
-    );
-  };
+    db.transaction(tx => {
+      tx.executeSql('insert into list (places) values (?);', [places]);
+    }, null, updateList
+    )
+    setPlaces('')
+  }
 
-  // Update
+  //update list
   const updateList = () => {
-    db.transaction((tx) => {
-      tx.executeSql("select * from places;", [], (_, { rows }) =>
+    db.transaction(tx => {
+      tx.executeSql('select * from list;', [], (_, { rows }) =>
         setMyAreas(rows._array)
-      );
+      ); 
     });
-  };
+  }
 
-  // Delete
+  // Delete item
   const deleteItem = (id) => {
     db.transaction(
-      (tx) => {
-        tx.executeSql(`delete from places where id = ?;`, [id]);
-      },
-      null,
-      updateList
-    );
-  };
-
+      tx => {
+        tx.executeSql(`delete from list where id = ?;`, [id]);
+      }, null, updateList
+    )    
+  }
+  
   const navigateToPressed = (item) => {
     navigation.navigate("Map", { itemId: item.id, itemPlaces: item.places });
   };
 
   return (
     <View style={styles.container}>
-      <Input
-        placeholder="Type in adress"
-        style={{
-          marginTop: 30,
-          fontSize: 18,
-        }}
+        <Input placeholder='Type in places' label="PLACEFINDER" style={{ marginTop: 10, fontSize: 18, width: 200, padding: 10}}
         onChangeText={(places) => setPlaces(places)}
-        value={places}
-      />
-      <View style={{ width: "50%" }}>
-        <Button
-          raised
-          buttonStyle={{ backgroundColor: "#a4a4a4" }}
-          icon={{ name: "add-location", color: "#fff", size: 25 }}
-          onPress={saveItem}
-          title="Save"
+        value={places}/> 
+        <View style={{width: '50%'}}>
+          <Button buttonStyle={{backgroundColor: '#4e9ffa'}} icon={{ name: "add-location", color: "#fff", size: 25 }} onPress={saveItem} title="SAVE"></Button>
+        </View>
+        <FlatList  style={styles.flatlist}
+          keyExtractor={item => item.id.toString()}
+          renderItem={({item}) => (
+            <ListItem bottomDivider style={{width: '100%'}}>
+                <ListItem.Title 
+                style={{width: '60%'}}
+                >
+                {item.places}
+                </ListItem.Title>
+                <View style={{alignContent: 'flex-end'}}>
+                  <Button 
+                  titleStyle={{color:'lightgray'}} 
+                  type='clear' title="show on map"
+                  icon={{name: 'chevron-right', color:'lightgray'}}
+                  iconRight={true} 
+                  onPress={() => navigateToPressed(item)}
+                  onLongPress={() => deleteItem(item.id)}>
+                  </Button>
+                </View>
+            </ListItem>
+          )}
+          data={myArea} 
         />
-      </View>
-
-      <FlatList
-        style={{ marginTop: 20 }}
-        keyExtractor={(item) => item.id.toString()}
-        renderItem={({ item }) => (
-          <ListItem bottomDivider>
-            <ListItem.Title style={{ width: "55%" }}>
-              {item.places}
-            </ListItem.Title>
-            <ListItem.Subtitle onLongPress={() => deleteItem(item.id)}>
-              Show on map{" "}
-            </ListItem.Subtitle>
-            <View containerStyle={styles.iconStyles}>
-              <Icon
-                onPress={() => navigateToPressed(item)}
-                name="chevron-right"
-                type="material-icons"
-                color="#4e9ffa"
-              />
-            </View>
-          </ListItem>
-        )}
-        data={myareas}
-      />
     </View>
+    
   );
 }
 
@@ -110,17 +89,13 @@ export default AdressSaver;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#f3f3f3",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  listcontainer: {
-    flexDirection: "row",
-    backgroundColor: "#f3f3f3",
-    alignItems: "center",
-  },
-  iconStyles: {
-    fontSize: 10,
-    color: "#4E5BFC",
-  },
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+   },
+   flatlist: {
+    marginTop: 30, 
+    marginBottom: 10,
+   },
 });
+

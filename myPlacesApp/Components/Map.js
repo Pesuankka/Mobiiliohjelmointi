@@ -4,24 +4,20 @@ import { Button, StyleSheet, Text, TextInput, View } from "react-native";
 import MapView, { Marker } from "react-native-maps";
 
 
-
 const baseUrl =
   "http://www.mapquestapi.com/geocoding/v1/address?key=URVhtwoo3uDADaTfCucb8YVFgTKWukIE&location=";
 
 function MapApp({route}) {
   const {itemId, itemPlaces} = route.params;
   const [region, setRegion] = useState({
-    latitude: 53.41058,
-    longitude: -2.97794,
+    latitude: 60.1699,
+    longitude: 24.9384,
     latitudeDelta: 0.1,
     longitudeDelta: 0.1,
   });
   const [marker, setMarker] = useState("");
-  
-  
 
   const getLocation = () => {
-    
     
     const url = baseUrl + itemPlaces;
     fetch(url)
@@ -59,7 +55,7 @@ function MapApp({route}) {
       </MapView>
       <StatusBar style="auto" />
       <Text>
-        <Button onPress={getLocation} title="Show" />
+        <Button onPress={getLocation} title="SHOW NEW LOCATION" />
       </Text>
     </View>
   );
