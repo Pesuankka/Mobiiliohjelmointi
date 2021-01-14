@@ -39,5 +39,7 @@ Mobiiliohjelmointi (Syksy 2020), harjoitustehtävät
 -Tehtävä 11 [ShoppingListWithNativeElements](/shoppinglistwithnativeelements/App.js)
 
 -Tehtävä 11.1 [MyPlacesApp](/myPlacesApp/App.js)
-  -Tehtävä 11.1 [MyPlacesApp](/myPlacesApp/components/Adress.js)
-  -Tehtävä 11.1 [MyPlacesApp](/myPlacesApp/components/Maps.js)
+
+  -Tehtävä 11.1 [MyPlacesApp](/myPlacesApp/Components/Adress.js)
+  
+  -Tehtävä 11.1 [MyPlacesApp](/myPlacesApp/Components/Map.js)
