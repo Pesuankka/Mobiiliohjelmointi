@@ -44,17 +44,20 @@ function AdressSaver({route, navigation }) {
     )    
   }
   
+  //Moves view to desired place in the map
   const navigateToPressed = (item) => {
     navigation.navigate("Map", { itemId: item.id, itemPlaces: item.places });
   };
 
   return (
     <View style={styles.container}>
-        <Input placeholder='Type in places' label="PLACEFINDER" style={{ marginTop: 10, fontSize: 18, width: 200, padding: 10}}
+        <Input placeholder='Type in places'
+        label="PLACEFINDER" 
+        style={{ marginTop: 10, fontSize: 18, width: 200, padding: 10}}
         onChangeText={(places) => setPlaces(places)}
         value={places}/> 
         <View style={{width: '50%'}}>
-          <Button buttonStyle={{backgroundColor: '#4e9ffa'}} icon={{ name: "add-location", color: "#fff", size: 25 }} onPress={saveItem} title="SAVE"></Button>
+          <Button buttonStyle={{backgroundColor: '#4e9ffa'}} icon={{ name: "add-location", color: "#f3f3f3", size: 25 }} onPress={saveItem} title="SAVE"></Button>
         </View>
         <FlatList  style={styles.flatlist}
           keyExtractor={item => item.id.toString()}
@@ -89,7 +92,7 @@ export default AdressSaver;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#f3f3f3',
     alignItems: 'center',
     justifyContent: 'center',
    },
