@@ -43,3 +43,4 @@ Mobiiliohjelmointi (Syksy 2020), harjoitustehtävät
   ---->Tehtävä 11.1 [MyPlacesApp - Adress](/myPlacesApp/Components/Adress.js)
   
   ---->Tehtävä 11.1 [MyPlacesApp - Map](/myPlacesApp/Components/Map.js)
+  -Tehtävä 12(Lopputyö) [BreezeApp](/FinalApplication/BoozyVibes/App.js)
