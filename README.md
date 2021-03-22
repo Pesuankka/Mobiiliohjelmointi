@@ -60,59 +60,72 @@ Mobiiliohjelmointi (Syksy 2020), harjoitustehtävät
    
 Final task technologies:
    
-Eva-Design:
+Eva-Designs:
 
   -Icons
+    Eva Icons have been used in the BottomNavigation panel.
 
   -Theme(dark)
+    Whole app is themed with Eva-dark-theme witch is customised by me.
 
   -Fonts
+    The application uses Eva Font
 
 React-components:
 
   -Navigation
+    Application is using few navigation technologies: React is contributing with React navigation bottomTabs and TopNavigation
 
   -StyleSheet
+    Stylesheet tecnology is used to keep some parts of the application styles consistent
 
   -SafeAreaView
-
-  -TopNavigation
-
-  -BottomNavigation
-
+    SafeAreaView is used to render the content within safe area boundaries of the device 
 
 Kitten-Ui:
 
   -NavigationByKitten
-
-  -Navigation styles
+    Kitten-Ui navigation is used with react-navigation to create navigation links styles.
 
   -Kitten List
+    Kitten list replaces flatlist but enables use of different settings. List is used in my application to list Kitten cards where information is presented.
 
   -Kitten Cards
+    These cards works as containers where you can represent information. The information recieved from Api-Fetch is sent to List where card component catches it and      presents the data inside of it.
 
   -Kitten Button with styles
-
+    Kitten buttons are used with unique styles.
+    
   -Kitten Input with styles
-
+    Kitten inputs are used with unique styles and attributes.
+    
   -Pictures with Kitten Avatar-tec
-
+    Kitten Avatar replices React-Native image, and is used with its own style and attributes.
 
 Firebase:
 
   -Firebase database
+    This Application use Firebase database which is hosted in cloud by Firebase.
 
   -Database save
+    You can save information to configured Firebase cloud server.
 
   -Database fetch
-
+    Saved information can be fetched and presented inside of kitten ui cards.
+    
   -multiple databases
+    This application is using multiple databases that are sync with eachother but they work independenly.
+    
+  -Database delete
+    You can delete items from both databases stored in the cloud.
 
 Api:
 
   -ApiFetch
+    We make Api requests from opensource cocktail database where the information is processed and worked in my code, saved to hooks and fetched from there and further    saved to firebase database.
 
 Android device features:
 
   -Timefetch 
+    My application can take information straight from the device, and time-date infromation can be seen form the application.
 
