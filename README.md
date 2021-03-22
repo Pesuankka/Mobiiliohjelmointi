@@ -61,37 +61,58 @@ Mobiiliohjelmointi (Syksy 2020), harjoitustehtävät
 Final task technologies:
    
 Eva-Design:
+
 -Icons
+
 -Theme(dark)
+
 -Fonts
 
 React-components:
+
 -Navigation
+
 -StyleSheet
+
 -SafeAreaView
+
 -TopNavigation
+
 -BottomNavigation
 
 
 Kitten-Ui:
+
 -NavigationByKitten
+
 -Navigation styles
+
 -Kitten List
+
 -Kitten Cards
+
 -Kitten Button with styles
+
 -Kitten Input with styles
+
 -Pictures with Kitten Avatar-tec
 
 
 Firebase:
+
 -Firebase database
+
 -Database save
+
 -Database fetch
+
 -multiple databases
 
 Api:
+
 -ApiFetch
 
 Android device features:
+
 -Timefetch 
 
