@@ -44,16 +44,16 @@ Mobiiliohjelmointi (Syksy 2020), harjoitustehtävät
   
   ---->Tehtävä 11.1 [MyPlacesApp - Map](/myPlacesApp/Components/Map.js)
   
- -Tehtävä 12(Lopputyö) [BreezeApp - App](/FinalApplication/BoozyVibes/App.js)
+   -Tehtävä 12(Lopputyö) [Breeze - App](/Breeze/App.js)
  
-  -->Tehtävä 12(Lopputyö) [BreezeApp - DrinkCardComponent](/FinalApplication/BoozyVibes/Components/DrinkCardComponent.js)
+   -->Tehtävä 12(Lopputyö) [Breeze- DrinkCardComponent](/Breeze/Components/DrinkCardComponent.js)
   
-  -->Tehtävä 12(Lopputyö) [BreezeApp - FavouriteComponent](/FinalApplication/BoozyVibes/Components/FavoriteComponent.js)
+   -->Tehtävä 12(Lopputyö) [Breeze - FavouriteComponent](/Breeze/Components/FavoriteComponent.js)
    
-  -->Tehtävä 12(Lopputyö) [BreezeApp - HomeComponent](/FinalApplication/BoozyVibes/Components/HomeComponent.js)
+   -->Tehtävä 12(Lopputyö) [Breeze - HomeComponent](/Breeze/Components/HomeComponent.js)
     
-   -->Tehtävä 12(Lopputyö) [BreezeApp - IngredientsComponent](/FinalApplication/BoozyVibes/Components/IngredientsComponent.js)
+   -->Tehtävä 12(Lopputyö) [Breeze - IngredientsComponent](/Breeze/Components/IngredientsComponent.js)
      
-   -->Tehtävä 12(Lopputyö) [BreezeApp - NavigationComponent](/FinalApplication/BoozyVibes/Components/NavigationComponent.js)
+   -->Tehtävä 12(Lopputyö) [Breeze - NavigationComponent](/Breeze/Components/NavigationComponent.js)
       
-   -->Tehtävä 12(Lopputyö) [BreezeApp - SearchComponent](/FinalApplication/BoozyVibes/Components/Searchcomponents.js)
+   -->Tehtävä 12(Lopputyö) [Breeze - SearchComponent](/Breeze/Components/Searchcomponents.js)
