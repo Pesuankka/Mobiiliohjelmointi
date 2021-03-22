@@ -56,4 +56,4 @@ Mobiiliohjelmointi (Syksy 2020), harjoitustehtävät
      
    -->Tehtävä 12(Lopputyö) [Breeze - NavigationComponent](/Breeze/Components/NavigationComponent.js)
       
-   -->Tehtävä 12(Lopputyö) [Breeze - SearchComponent](/Breeze/Components/Searchcomponents.js)
+   -->Tehtävä 12(Lopputyö) [Breeze - SearchComponent](/Breeze/Components/SearchComponents.js)
