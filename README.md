@@ -62,57 +62,57 @@ Final task technologies:
    
 Eva-Design:
 
--Icons
+  -Icons
 
--Theme(dark)
+  -Theme(dark)
 
--Fonts
+  -Fonts
 
 React-components:
 
--Navigation
+  -Navigation
 
--StyleSheet
+  -StyleSheet
 
--SafeAreaView
+  -SafeAreaView
 
--TopNavigation
+  -TopNavigation
 
--BottomNavigation
+  -BottomNavigation
 
 
 Kitten-Ui:
 
--NavigationByKitten
+  -NavigationByKitten
 
--Navigation styles
+  -Navigation styles
 
--Kitten List
+  -Kitten List
 
--Kitten Cards
+  -Kitten Cards
 
--Kitten Button with styles
+  -Kitten Button with styles
 
--Kitten Input with styles
+  -Kitten Input with styles
 
--Pictures with Kitten Avatar-tec
+  -Pictures with Kitten Avatar-tec
 
 
 Firebase:
 
--Firebase database
+  -Firebase database
 
--Database save
+  -Database save
 
--Database fetch
+  -Database fetch
 
--multiple databases
+  -multiple databases
 
 Api:
 
--ApiFetch
+  -ApiFetch
 
 Android device features:
 
--Timefetch 
+  -Timefetch 
 
