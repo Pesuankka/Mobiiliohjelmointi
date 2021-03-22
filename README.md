@@ -43,4 +43,17 @@ Mobiiliohjelmointi (Syksy 2020), harjoitustehtävät
   ---->Tehtävä 11.1 [MyPlacesApp - Adress](/myPlacesApp/Components/Adress.js)
   
   ---->Tehtävä 11.1 [MyPlacesApp - Map](/myPlacesApp/Components/Map.js)
-  -Tehtävä 12(Lopputyö) [BreezeApp](/FinalApplication/BoozyVibes/App.js)
+  
+ -Tehtävä 12(Lopputyö) [BreezeApp - App](/FinalApplication/BoozyVibes/App.js)
+ 
+  -->Tehtävä 12(Lopputyö) [BreezeApp - DrinkCardComponent](/FinalApplication/BoozyVibes/Components/DrinkCardComponent.js)
+  
+  -->Tehtävä 12(Lopputyö) [BreezeApp - FavouriteComponent](/FinalApplication/BoozyVibes/Components/FavoriteComponent.js)
+   
+  -->Tehtävä 12(Lopputyö) [BreezeApp - HomeComponent](/FinalApplication/BoozyVibes/Components/HomeComponent.js)
+    
+   -->Tehtävä 12(Lopputyö) [BreezeApp - IngredientsComponent](/FinalApplication/BoozyVibes/Components/IngredientsComponent.js)
+     
+   -->Tehtävä 12(Lopputyö) [BreezeApp - NavigationComponent](/FinalApplication/BoozyVibes/Components/NavigationComponent.js)
+      
+   -->Tehtävä 12(Lopputyö) [BreezeApp - SearchComponent](/FinalApplication/BoozyVibes/Components/Searchcomponents.js)
