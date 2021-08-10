@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Button, StyleSheet, Text, TextInput, View } from "react-native";
 import MapView, { Marker } from "react-native-maps";
 
-const baseUrl = "http://www.mapquestapi.com/geocoding/v1/address?key=URVhtwoo3uDADaTfCucb8YVFgTKWukIE&location="; 
+const baseUrl = "http://www.mapquestapi.com/geocoding/v1/address?key=*****************="; 
 
 export default function App() {
   const [region, setRegion] = useState({
