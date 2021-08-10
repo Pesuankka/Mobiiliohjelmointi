@@ -5,7 +5,7 @@ import MapView, { Marker } from "react-native-maps";
 import * as Location from "expo-location";
 
 const baseUrl =
-  "http://www.mapquestapi.com/geocoding/v1/address?key=URVhtwoo3uDADaTfCucb8YVFgTKWukIE&location=";
+  "http://www.mapquestapi.com/geocoding/v1/address?key=******************************=";
 
 export default function App() {
   //Paikan hakuun liittyvät hookit
@@ -45,7 +45,7 @@ export default function App() {
       region.latitude +
       "," +
       region.longitude +
-      "&type=restaurant&radius=200&key=AIzaSyArX88vDOdCnhWtthAUgBMOInmio3MaJ_I";
+      "&type=restaurant&radius=200&key=************************";
     fetch(restaurantUrl)
       .then((response) => response.json())
       .then((json) => {
